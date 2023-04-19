@@ -39,6 +39,6 @@ function signToken({ username, email, _id }) {
 }
 
 module.exports = {
-  authMiddleware,
+  // authMiddleware,
   signToken,
 };
