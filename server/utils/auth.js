@@ -23,7 +23,7 @@ async function authMiddleware({ req, connection }, next) {
   try {
     const { data } = jwt.verify(token, secret, { maxAge: expiration });
     req.user = data;
-    connection?.context = { Authorization: token };
+    // connection?.context = { Authorization: token };
   } catch (error) {
     console.error(error);
     throw new Error('Invalid or expired token');
