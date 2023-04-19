@@ -24,7 +24,7 @@
   
   ## License
   
-  None
+  MIT
 
   ## Credits
   
